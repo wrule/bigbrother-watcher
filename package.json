@@ -1,0 +1,19 @@
+{
+  "name": "@wrule/bigbrother-watcher",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node dist/test.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": "https://github.com/wrule/bigbrother-watcher.git",
+  "author": "wrule",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.5.4",
+    "jsonwebtoken": "^8.5.1",
+    "socket.io-client": "^4.1.3"
+  }
+}
